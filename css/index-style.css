@@ -1,4 +1,5 @@
 
+
 /* navbar */
 #top{
   width: 100%;
@@ -7,6 +8,7 @@
   margin: none;
   padding: 0px;
 }
+
 
 #nav {
   /* background-color: #2e2e2e; */
@@ -250,11 +252,20 @@ body{
 .total-cards{
   display: flex;
   justify-content: center;
-  background-image: url('imagenes/fonodo.gif');
+  background-image: url('img/fonodo.gif');
   background-size: cover; /* Ajusta el tamaño de la imagen para que cubra todo el contenedor */
   background-position: center; /* Centra la imagen en el contenedor */
   /* Otras propiedades opcionales */
   background-repeat: no-repeat;
+  
+  }
+
+  #use-skills{
+     /* display: flex; */
+    /* flex-direction: row; */
+    /* justify-content: end;  */
+
+    align-self: center;
   }
 
 .card-hogwarts{
@@ -263,6 +274,7 @@ body{
   align-content: center;
   gap: 8px;
 }
+
 .card-macondo{
   display: fLex;
   flex-direction: row;
@@ -276,10 +288,10 @@ body{
     border-radius: 5px;
     text-align: left;
 
-    -webkit-box-shadow: 0px 5px 5px 0px rgba(0, 0, 0, 0.3);
-    -moz-box-shadow: 0px 5px 5px 0px rgba(0, 0, 0, 0.3);
+    -webkit-box-shadow: 0px 5px 5px 0px rgba(255, 251, 251, 0.983);
+    -moz-box-shadow: 0px 5px 5px 0px rgba(255, 255, 255, 0.3);
     -o-box-shadow: 0px 5px 5px 0px rgba(0,0,0,0.3);
-    box-shadow: 0px 5px 5px 0px rgba(0,0,0,0.3);        
+    box-shadow: 0px 5px 5px 0px rgba(193, 191, 191, 0.3);        
 }
 
     .img-card .card-image {
@@ -315,6 +327,7 @@ body{
     .img-card .card-link {
         padding: 20px 15px 30px;
         width: -webkit-fill-available;
+        
     }
 
         .img-card .card-link a {
@@ -342,6 +355,16 @@ body{
     .img-card.iCard-style3 {
         text-align: center;
     }
+
+    .title{
+      text-decoration: none;
+      color: #FFF;
+    }
+  .skills{
+    display: flex;
+
+    gap: 11px;
+  }
 /* titulo de las cards  */
     .img-card.iCard-style3 .card-title {
         top: 80%;
@@ -352,24 +375,33 @@ body{
         width: 100%;
         font-family: 'Roboto', sans-serif;
         z-index: 1;
+        
     }
+    .img-card.iCard-style3 .card-title :hover {
+      top: 80%;
+      font-size: 30px;
+      color: #ffffff;
+      text-shadow: 0 0 10px rgb(5, 118, 23) , 0 0 20px  #0f8804 , 0 0 30px  #09ce09  ;
+    
+      width: 100%;
+      font-family: 'Roboto', sans-serif;
+      z-index: 1;
+  }
 
     .img-card.iCard-style3 .card-text {
         color: #636060;
     }
 
     .img-card.iCard-style3 .card-link {
-        border-top: 1px solid #e8e8e8;
+        border-top: 1px solid #fbfbfb;
     }
 .img-card.iCard-style3 .card-link a {
   color: #ffffff;
-  text-shadow: 0 0 10px rgba(255,255,255,1) , 0 0 20px  #ffffff , 0 0 30px  #ffffff  ;
+  text-shadow: 0 0 10px rgb(0, 0, 0) , 0 0 20px  #000000 , 0 0 30px  #000000;
+  
 }
 
-.img-card.iCard-style3 .card-link a :hover {
-  color: #ffffff;
-  text-shadow: 0 0 10px rgb(25, 232, 6) , 0 0 20px  #4aee0f , 0 0 30px  #5eff00  ;
-}
+
 
         .img-card.iCard-style3 .card-link a:after {            
             background: #ffffff;
@@ -453,12 +485,12 @@ body{
 #container:hover .overlay {
   opacity: 0.9;
   border: 3px solid transparent;
-  border-image: linear-gradient(to bottom right, #b827fc 0%, #2c90fc 25%, #b8fd33 50%, #fec837 75%);
+
   border-image-slice: 1;
   
 }
 .text {
-  color: black;
+  color: rgb(246, 246, 246);
   font-size: 50px;
   position: absolute;
   top: 50%;

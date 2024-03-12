@@ -1,0 +1,1 @@
+<model-viewer src="riwi+model+90°.glb" ar ar-modes="webxr scene-viewer quick-look" camera-controls tone-mapping="commerce" poster="poster.png" shadow-intensity="1"> </model-viewer>

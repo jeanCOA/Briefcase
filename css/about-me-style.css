@@ -1,0 +1,108 @@
+/* body{
+    width: 100%;
+    height: 200px;
+    background: linear-gradient(to right, black, whitesmoke);
+} */
+
+
+
+/* aside{
+ border: 3px solid yellow;
+} */
+
+
+.contenedor-imagen-presentacion{
+    /*border: 2px solid blue;  Define un borde de 2px de ancho y sólido, de color azul */
+    /* background-color: #cfcfcf; */
+    width: 100%;
+display: flex;
+gap: 4%;
+}
+.imagen{
+    width: 30%;
+    height: 30%;
+    margin-top: 5rem;
+    /* border: 2px solid green; */
+    border-radius:  40px;
+    /* padding-left: 10%; */
+    
+
+
+    animation: pulsate 1.5s infinite alternate;  
+    border: 0.2rem solid #fff;
+    border-radius: 2rem;
+    padding: 0.4em;
+    box-shadow: 0 0 .2rem #fff,
+                0 0 .2rem #fff,
+                0 0 2rem #133efe37,
+                0 0 0.8rem #133efe,
+                0 0 2.8rem #4869fd,
+                inset 0 0 1.3rem #000000; 
+    }
+
+
+.presentation{
+    margin-top: 7rem;
+    border: 6px solid rgb(0, 0, 0);
+
+.Hola{
+    color: whitesmoke;
+}
+.paragraph{
+    color:whitesmoke;
+    font-size: 17px;
+}
+}
+
+
+/* model viewer  */
+
+/* model-viewer {
+
+    
+    
+  } */
+
+
+.model{
+        width: 350px;
+    height: 250px;
+    background-color: #00000000;
+    
+
+}
+
+@media screen and (max-width:766px) {
+
+    .contenedor-imagen-presentacion{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .imagen{
+        width: 40%;
+        height: 40%;
+        
+    }
+
+    .presentation{
+        
+    };
+
+
+.model{
+    justify-content: center;
+    background-color: #6f606000;
+}
+    }
+
+    .profile{
+        width: 100px;
+        border-radius: 50px;
+      }
+
+
+
+
+
