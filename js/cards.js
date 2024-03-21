@@ -52,3 +52,4 @@ function createCards() {
 
 // Llamar a la función para crear las tarjetas cuando la página se cargue
 window.onload = createCards;
+
