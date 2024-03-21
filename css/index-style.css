@@ -152,17 +152,37 @@
   .fractal-parrafo{
     flex-direction: column;
     align-items: center;
+    
   
   }
 
 .parrafo{
   display: flex;
   margin-top: 1px;
+  
 }
 
   .fractal{
-    width: 310px;
+    width: 20%;
+  
   }
+}
+
+.fractal{
+  width: 300px;
+  border-radius: 25px;
+  border: 6px solid rgb(0, 51, 128);
+  
+  animation: pulsate 1.5s infinite alternate;  
+  border: 0.2rem solid #fff;
+  
+  padding: 0.4em;
+  box-shadow: 0 0 .2rem #fff,
+              0 0 .2rem #fff,
+              0 0 2rem #133efe37,
+              0 0 0.8rem #133efe,
+              0 0 2.8rem #4869fd,
+              inset 0 0 1.3rem #000000; 
 }
 
 /* nuevo navbar  */
@@ -226,6 +246,8 @@ body{
 .fractal-parrafo{
   display: flex;
   color: #ffffff;
+
+  gap: 18px;
 }
 
 .parrafo{
@@ -406,7 +428,10 @@ body{
         .img-card.iCard-style3 .card-link a:after {            
             background: #ffffff;
         }
-
+/* SKILLLS UTILIZADAS///////////////////////////////////// */
+.icons{
+  margin-bottom: -14px;
+}
 
 
 
@@ -445,7 +470,7 @@ body{
 }
 
 .title-text_description{
-  color: #FFF;
+  color: #272323;
   
 }
 .text_description{
@@ -673,3 +698,13 @@ border-radius:50%;
 
 /* mod cards 
  */
+
+
+table {
+  width: 100%;
+  margin-top: 1rem;
+}
+td,
+th {
+  border: 1px solid rgba(255, 0, 0, 0.281);
+}
